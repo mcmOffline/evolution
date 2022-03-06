@@ -1,8 +1,0 @@
-type = customizablemenus
-
-net.minecraft.client.gui.screen.inventory.CreativeScreen {
-}
-
-net.minecraft.client.gui.screen.MainMenuScreen {
-}
-
