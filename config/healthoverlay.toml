@@ -1,0 +1,11 @@
+
+["Heart colors"]
+	#RGB values for every 10 absorption hearts (not counting the default red)
+	absorptionColors = ["225,250,155", "160,255,175", "170,255,250", "170,205,255", "215,180,255", "250,165,255", "255,180,180", "255,170,125", "215,240,255", "235,255,250"]
+	#Two alternating RGB values when withered
+	witherColors = ["15,15,15", "45,45,45"]
+	#RGB values for every 10 hearts (not counting the default red)
+	heartColors = ["240,110,20", "245,220,35", "45,185,40", "30,175,190", "115,70,225", "250,125,235", "235,55,90", "255,130,120", "170,255,250", "235,235,255"]
+	#Two alternating RGB values when poisoned
+	poisonColors = ["115,155,0", "150,205,0"]
+

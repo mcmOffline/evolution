@@ -1,0 +1,152 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  name = podsolnyx
+  action = animatebackground
+}
+
+customization {
+  path = resources/mainmenu/bg_gray.png
+  orientation = top-left
+  x = 45
+  width = 140
+  action = addtexture
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  path = resources/mainmenu/logotype.png
+  orientation = mid-left
+  x = 15
+  width = 200
+  action = addtexture
+  y = -113
+  height = 58
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-left
+  buttonaction = opengui
+  x = 49
+  width = 132
+  action = addbutton
+  y = -43
+  backgroundhovered = resources/mainmenu/bs1.png
+  label = Одиночная игра
+  backgroundnormal = resources/mainmenu/bs0.png
+  value = net.minecraft.client.gui.screen.WorldSelectionScreen
+  height = 26
+}
+
+customization {
+  orientation = mid-left
+  buttonaction = opengui
+  x = 49
+  width = 132
+  action = addbutton
+  y = -13
+  backgroundhovered = resources/mainmenu/button_multiplayer_1.png
+  label = Сетевая игра
+  backgroundnormal = resources/mainmenu/button_multiplayer_0.png
+  value = net.minecraft.client.gui.screen.MultiplayerScreen
+  height = 26
+}
+
+customization {
+  orientation = mid-left
+  buttonaction = opengui
+  x = 49
+  width = 132
+  action = addbutton
+  y = 16
+  backgroundhovered = resources/mainmenu/button_mods_1.png
+  label = Моды
+  backgroundnormal = resources/mainmenu/button_mods_0.png
+  value = net.minecraftforge.fml.client.gui.screen.ModListScreen
+  height = 26
+}
+
+customization {
+  orientation = mid-left
+  buttonaction = opengui
+  x = 49
+  width = 132
+  action = addbutton
+  y = 45
+  backgroundhovered = resources/mainmenu/button_settings_4.png
+  label = Настройки
+  backgroundnormal = resources/mainmenu/button_settings.png
+  value = net.minecraft.client.gui.screen.OptionsScreen
+  height = 26
+}
+
+customization {
+  orientation = mid-left
+  buttonaction = quitgame
+  x = 49
+  width = 66
+  action = addbutton
+  y = 96
+  backgroundhovered = resources/mainmenu/button_exit_1.png
+  label = Выход
+  backgroundnormal = resources/mainmenu/button_exit_0.png
+  value = 
+  height = 25
+}
+

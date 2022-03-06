@@ -1,0 +1,4 @@
+#Mon Mar 15 20:44:27 MSK 2021
+BLOOM=false
+EMISSIVE_RECOLOR=true
+WAVING_LEAF=false

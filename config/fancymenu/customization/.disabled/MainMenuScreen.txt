@@ -1,0 +1,134 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  path = resources/mainmenu/bg.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-left
+  x = 20
+  action = movebutton
+  y = -22
+}
+
+customization {
+  identifier = %id=400322%
+  width = 177
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = resources/mainmenu/button_fortress.png
+  backgroundnormal = resources/mainmenu/button_fortress.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-left
+  x = 20
+  action = movebutton
+  y = 3
+}
+
+customization {
+  identifier = %id=400382%
+  width = 177
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = resources/mainmenu/button_fortress.png
+  backgroundnormal = resources/mainmenu/button_fortress.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-left
+  x = 20
+  action = movebutton
+  y = 140
+}
+
+customization {
+  identifier = %id=502382%
+  width = 40
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = Выход
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-left
+  x = 20
+  action = movebutton
+  y = 28
+}
+
+customization {
+  identifier = %id=400346%
+  width = 177
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttontexture
+  backgroundhovered = resources/mainmenu/button_fortress.png
+  backgroundnormal = resources/mainmenu/button_fortress.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 20
+  action = movebutton
+  y = -47
+}
+
+customization {
+  identifier = %id=400298%
+  width = 177
+  action = resizebutton
+  height = 20
+}
+

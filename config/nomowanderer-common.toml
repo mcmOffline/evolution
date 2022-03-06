@@ -1,0 +1,4 @@
+#Wandering Trader spawn prevention radius (in chunks)
+#Range: 4 ~ 12
+radius = 8
+
